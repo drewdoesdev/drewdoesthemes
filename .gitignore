@@ -1,0 +1,48 @@
+# Common wordpress files to ignore
+wp-config.php
+wp-content/debug.log
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+
+# Common wp-content directories
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+
+
+# ignore VIM editor files
+.*.swp
+
+
+# ignore packaged files
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# ignore generic files
+temp.txt
+*.bak
+
+# ignore log files
+*.log
+
+
+# ignore OS X specific files
+*.dmg
+.DS_Store
+
+# Ignore sass-cache files.
+*.sass-cache*
+
+# Ignore Sass source map files.
+*.css.map
